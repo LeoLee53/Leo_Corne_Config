@@ -39,6 +39,16 @@
         };
     };
 
+    combos {
+        compatible = "zmk,combos";
+
+        bksp {
+            bindings = <&kp BACKSPACE>;
+            key-positions = <7 8>;
+            timeout-ms = <50>;
+        };
+    };
+
     keymap {
         compatible = "zmk,keymap";
 
