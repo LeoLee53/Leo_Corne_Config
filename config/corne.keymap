@@ -45,7 +45,66 @@
         bksp {
             bindings = <&kp BACKSPACE>;
             key-positions = <7 8>;
-            timeout-ms = <50>;
+        };
+
+        star {
+            bindings = <&kp STAR>;
+            key-positions = <8 20>;
+        };
+
+        plus {
+            bindings = <&kp LS(EQUAL)>;
+            key-positions = <7 19>;
+        };
+
+        caret {
+            bindings = <&kp LS(NUMBER_6)>;
+            key-positions = <6 18>;
+        };
+
+        and {
+            bindings = <&kp LS(N7)>;
+            key-positions = <9 21>;
+        };
+
+        left_paren {
+            bindings = <&kp LS(N9)>;
+            key-positions = <19 20>;
+        };
+
+        right_paren {
+            bindings = <&kp LS(N0)>;
+            key-positions = <20 21>;
+        };
+
+        underscore {
+            bindings = <&kp LS(MINUS)>;
+            key-positions = <30 18>;
+        };
+
+        minus {
+            bindings = <&kp MINUS>;
+            key-positions = <31 19>;
+        };
+
+        slash {
+            bindings = <&kp SLASH>;
+            key-positions = <20 32>;
+        };
+
+        pipe {
+            bindings = <&kp LS(BACKSLASH)>;
+            key-positions = <33 21>;
+        };
+
+        left_bracket {
+            bindings = <&kp LEFT_BRACKET>;
+            key-positions = <31 32>;
+        };
+
+        right_bracket {
+            bindings = <&kp RIGHT_BRACKET>;
+            key-positions = <32 33>;
         };
     };
 
